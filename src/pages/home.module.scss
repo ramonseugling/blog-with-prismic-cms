@@ -1,1 +1,34 @@
 // TODO
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.posts {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  max-width: 700px;
+
+  img {
+    margin-right: auto;
+  }
+
+  h2 {
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1rem;
+    color: var(--gray-150);
+  }
+
+  time,
+  span {
+    font-size: 0.75rem;
+    color: var(--gray-300);
+  }
+}
